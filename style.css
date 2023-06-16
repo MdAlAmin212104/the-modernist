@@ -1,0 +1,232 @@
+/*============================== 
+    Common css 
+===============================*/
+*{
+    
+    font-family: 'Noto Serif Georgian', serif;
+    
+}
+.header{
+    background-color: #290000;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    
+    
+}
+.Main{
+    background-color: #660000;
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+        
+}
+.hr{
+    height: 4px;
+    max-width: 1000px;
+    width: 100%;
+    background-color: #353535;
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 20px;
+    border: 4px solid;
+}
+
+.head{
+    color: #ffffff;
+}
+#home:hover{
+    background-color: #76c38f;
+    border-radius: 10px;
+    
+}
+
+.heading{
+   text-align: center; 
+}
+.paragraph{
+    text-align: left;
+    margin: 30px 40px 20px 185px;
+    margin-right: 40px;
+    
+}
+.btn1{
+    background-color: #76c38f;
+    margin-left: 185px;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 5px;
+
+}
+.back{
+	border-top: 25px solid transparent;
+	border-right: 20px solid #0edf50;
+	border-bottom: 25px solid transparent;
+}
+.prev{
+    border-top: 25px solid transparent;
+	border-left: 20px solid #0edf50;
+	border-bottom: 25px solid transparent; 
+}
+.card{
+    max-width: 225px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: none;
+    max-height: 310px;
+    width: 100%;
+}
+.collum{
+    text-align: center;
+}
+p{
+    font-size: 13px;
+}
+.div1{
+    position: relative;
+}
+.collum4{
+    position: absolute;
+    right: 66px;
+}
+.collum2{
+    position: relative;
+    left: 46px;
+}
+.collum1{
+    position: relative;
+    left: 100px;
+}
+.collum3{
+    position: relative;
+    left: -10px;
+}
+
+
+.design:hover{
+    background-color: #76c38f;
+}
+.Main h1{
+    background-color: #353535;
+    margin: 0 auto;
+    width: 25%;
+    position: relative;
+    top: -30px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3px;
+}
+
+.work-card{
+    max-width: 310px;
+    height: 240px;
+    width: 100%;
+    margin: 20px;
+    border: 4px solid #ffffff;
+    overflow: hidden;
+}
+.text{
+    background-color: #151515;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+.position1{
+    position: relative;
+    left: 90px;
+}
+.position2{
+    position: relative;
+    left: 20px;
+}
+.position3{
+    position: relative;
+    left: -50px;
+}
+.position4{
+    position: relative;
+    left: 90px;
+}
+.position5{
+    position: relative;
+    left: 20px;
+}
+.position6{
+    position: relative;
+    left: -50px;
+}
+.work-card:hover{
+    border: 4px solid #0edf50;
+    
+    
+}
+.card-img-top:hover{
+    box-sizing: border-box;
+    transform: scaleY(1.3);
+    
+    
+}
+
+
+/* fotter section */
+
+.footer{
+    background-color: #303030;
+    max-width: 1000px;
+    width: 98%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+
+
+.pa{
+    line-height: 5px;
+}
+
+.copyright{
+    background-color: #333333;
+    padding: 30px;
+    color: white;
+}
+.copy{
+    text-align: start;
+    margin: 0 auto;
+}
+.template{
+    text-align: end;
+    margin: 0 auto;
+}
+
+.pa{
+    line-height: 5px;
+    color: #76c38f;
+}
+.input-type{
+    margin: 5px;
+    
+}
+.input-type input[type="text"]{
+    background-color: #222222;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: #ddd;
+}
+.input-type input[type="email"]{
+    background-color: #222222;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: #ddd;
+}
+.input-type textarea{
+    background-color: #222222;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: #ddd;
+}
+
